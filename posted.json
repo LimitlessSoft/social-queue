@@ -1,1 +1,19 @@
-{}
+{
+  "2026-10-13-one-list-every-location": {
+    "bluesky": {
+      "status": "posted",
+      "url": "https://bsky.app/profile/did:plc:zhbso7l5kupw4ewqyo7kq4y2/post/3mxs47utski2w",
+      "at": "2026-10-13T22:43:39.248Z"
+    },
+    "x": {
+      "status": "posted",
+      "url": "https://x.com/i/status/2110139434112823596",
+      "at": "2026-10-13T22:43:40.469Z"
+    },
+    "instagram": {
+      "status": "posted",
+      "url": "https://www.instagram.com/reel/Dec6MTCiLQ_/",
+      "at": "2026-10-13T22:44:49.163Z"
+    }
+  }
+}
