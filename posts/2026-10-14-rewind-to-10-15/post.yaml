@@ -1,0 +1,56 @@
+title: Rewind to 10:15
+publish_at: 2026-10-14T10:00:00Z
+
+sources:
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.PLAYBACK.TITLE — "Rewind the workday"
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.PLAYBACK.DESCRIPTION — "Something went wrong at 10:15? Pick the day, click the moment on the timeline and see exactly what was on the screen."
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.PLAYBACK.POINTS.ITEM_2 — "Play at up to 300× to review a whole day in minutes" (Instagram caption)
+  - en.json DESKTOP_MONITORING_PAGE.USE_CASES.ITEMS.ITEM_3.DESCRIPTION — "A deleted file, a wrong payment, a leaked document — replay what happened, when it happened." (only "a deleted file, a wrong payment" used)
+  - en.json DESKTOP_MONITORING_PAGE.BENEFITS.ITEMS.ITEM_6.DESCRIPTION — "Record Windows PCs and watch them from a Windows or Linux computer." (backs "PC")
+  - en.json DESKTOP_MONITORING_PAGE.FAQ.ITEMS.ITEM_1.ANSWER — "Monitoring should still never be a secret — tell your team that their screens are recorded."
+  - en.json DESKTOP_MONITORING_PAGE.INSTALL.CONSENT — "Install the client only on computers you own or manage, and let the people who use them know that their screens are recorded."
+  - 'docs/viewer.md (master), Playback bar — "Speed | `1×` (default), `2×`, `5×`, `10×`, `30×`, `60×`, `300×`" (backs 300×)'
+  - 'docs/viewer.md (master), Timeline — "Each green column is a time bucket, and its height shows how many frames were recorded in that bucket" (backs the alt text: green marks where screen frames were recorded)'
+
+visuals:
+  card-wide.png:
+    template: feature
+    size: wide
+    kicker: DESKTOP MONITORING
+    headline: Something went wrong at 10:15?
+    body: Pick the day, click the moment on the timeline and see exactly what was on the screen.
+    shot: playback.png
+    alt: "A card. On the left, the kicker DESKTOP MONITORING, the headline \"Something went wrong at 10:15?\" and the line \"Pick the day, click the moment on the timeline and see exactly what was on the screen.\" On the right, a screenshot of the Desktop Monitoring viewer replaying the PC \"Sales — Marko\". At the left of the viewer, the Agents list of eight PCs with \"Sales — Marko\" selected. Along the top, the toolbar with Recording switched on, Resources, Zoom (Ctrl) and screen 1. In the middle, the recorded screen: a mail client with the email \"Contract renewal — Q4\" from Dušan Stojanović open and a reply being written, with the attachment Offer_Nordex_1043.pdf. Below it, the playback bar: the date 13.10.2026, the time 10:15:01.161, previous, play and next buttons, speed 1×, Skip gaps switched on, and a timeline of the whole day from 00:00 to 24:00 with green marks where screen frames were recorded, from about 08:00 to 12:00 and from about 12:30 to 17:00, and the playhead at 10:15. Under it, the View buttons −, 24 h, 6 h, 1 h, 15 min, 5 min, 1 min, + and the hint \"Blue window below the line: drag to move it, drag its edges to narrow/widen it\". At the bottom, Desktop Monitoring by LimitlessSoft and limitlesssoft.com."
+
+  card-portrait.jpg:
+    template: feature
+    size: portrait
+    kicker: DESKTOP MONITORING
+    headline: Something went wrong at 10:15?
+    body: Pick the day, click the moment on the timeline and see exactly what was on the screen.
+    shot: playback.png
+    alt: "A card. At the top, the kicker DESKTOP MONITORING, the headline \"Something went wrong at 10:15?\" and the line \"Pick the day, click the moment on the timeline and see exactly what was on the screen.\" Below that, a screenshot of the Desktop Monitoring viewer replaying the PC \"Sales — Marko\". At the left of the viewer, the Agents list of eight PCs with \"Sales — Marko\" selected. Along the top, the toolbar with Recording switched on, Resources, Zoom (Ctrl) and screen 1. In the middle, the recorded screen: a mail client with the email \"Contract renewal — Q4\" from Dušan Stojanović open and a reply being written, with the attachment Offer_Nordex_1043.pdf. Below it, the playback bar: the date 13.10.2026, the time 10:15:01.161, previous, play and next buttons, speed 1×, Skip gaps switched on, and a timeline of the whole day from 00:00 to 24:00 with green marks where screen frames were recorded, from about 08:00 to 12:00 and from about 12:30 to 17:00, and the playhead at 10:15. Under it, the View buttons −, 24 h, 6 h, 1 h, 15 min, 5 min, 1 min, + and the hint \"Blue window below the line: drag to move it, drag its edges to narrow/widen it\". At the bottom, Desktop Monitoring by LimitlessSoft and limitlesssoft.com."
+
+
+posts:
+  bluesky:
+    text: |
+      Something went wrong at 10:15? In Desktop Monitoring you pick the day, click the moment on the timeline and see exactly what was on the screen.
+
+      A deleted file, a wrong payment: replay it. Tell your team their screens are recorded.
+      https://limitlesssoft.com/en/applications/desktop-monitoring
+    media: [card-wide.png]
+  x:
+    text: |
+      Something went wrong at 10:15? In Desktop Monitoring you pick the day, click the moment on the timeline and see exactly what was on that PC's screen.
+
+      A deleted file, a wrong payment: replay what happened, when it happened. And tell your team their screens are recorded.
+    media: [card-wide.png]
+  instagram:
+    text: |
+      Something went wrong at 10:15? In Desktop Monitoring you pick the day, click the moment on the timeline and see exactly what was on the screen.
+      Play at up to 300× to review a whole day in minutes.
+      Tell your team their screens are recorded. Link in bio.
+
+      #itsupport #officemanagement #smallbusiness #windows
+    media: [card-portrait.jpg]

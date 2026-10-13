@@ -1,0 +1,77 @@
+title: Which PC needs an upgrade?
+publish_at: 2026-10-19T10:00:00Z
+
+sources:
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.RESOURCES.DESCRIPTION — "Charts of processor, memory, graphics, network and disk use for every PC — for the last hour or the last month."
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.RESOURCES.POINTS.ITEM_1 — "Find the machine that needs an upgrade"
+  - en.json DESKTOP_MONITORING_PAGE.HERO.TITLE — "Every screen in your company. Live and on replay."
+  - en.json DESKTOP_MONITORING_PAGE.BENEFITS.ITEMS.ITEM_6.DESCRIPTION — "Record Windows PCs and watch them from a Windows or Linux computer."
+  - 'docs/viewer.md (master), Resources window — "**Resursi** ("Resources") on the agent toolbar opens a window titled `Resursi - <agent name>` ... You can open several, for example to compare agents side by side."'
+  - 'docs/viewer.md (master), Range controls — "**1 h** (default on open), **6 h**, **24 h**, **7 d**, **30 d** | Show the last N, ending now"'
+  - docs/client.md (master) — "it uploads machine load metrics (CPU, RAM, GPU, network, disk, and the agent's own usage)"
+
+visuals:
+  card-wide.png:
+    template: feature
+    size: wide
+    kicker: DESKTOP MONITORING
+    headline: Which PC needs an upgrade?
+    body: Its processor, memory and graphics use, chart by chart.
+    shot: resources.png
+    crop: { x: 0, y: 0, width: 560, height: 470 }
+    alt: 'A card. On the left, the kicker DESKTOP MONITORING, the headline "Which PC needs an upgrade?" and the line "Its processor, memory and graphics use, chart by chart." On the right, part of the Desktop Monitoring Resources window for the PC "Sales — Marko", range 13.10.2026 11:04 - 17:04 · live: a CPU chart (legend CPU 22 %), a RAM chart (legend RAM 8.4 GB / 16.0 GB (53 %)) and a GPU (3D) chart (legend GPU 13 %), each with 100 % and 50 % gridlines and times from 11:04 to 13:38 along the bottom. At the bottom, Desktop Monitoring by LimitlessSoft and limitlesssoft.com.'
+
+  clip-vertical.mp4:
+    template: clip
+    size: vertical
+    alt: 'Short clip. A title card: DESKTOP MONITORING, "Which PC needs an upgrade?", "Charts of processor, memory, graphics, network and disk use for every PC." Then part of the Desktop Monitoring Resources window for the PC Sales — Marko, range 13.10.2026 11:04 - 17:04 · live, with the CPU chart (CPU 22 %) and the RAM chart (RAM 8.4 GB / 16.0 GB (53 %)), times 11:04 to 13:38, captioned "Processor and memory." Then the GPU (3D) chart (GPU 13 %), the Network chart (Received 0.57 Mbit/s, Sent 0.12 Mbit/s, scale up to 13.61 Mbit/s) and the Disk activity chart (Disk 1 %), captioned "Graphics, network and disk." Then the range buttons 1 h, 6 h (selected), 24 h, 7 d, 30 d, step buttons on either side, and Now, above the right part of the CPU chart with times 14:29 to 17:04, captioned "For the last hour or the last month." Then a card: "Find the machine that needs an upgrade. Open several PCs side by side to compare." It ends on the LS logo, Desktop Monitoring, "Every screen in your company. Live and on replay." and limitlesssoft.com.'
+    scenes:
+      - template: title
+        kicker: DESKTOP MONITORING
+        headline: Which PC needs an upgrade?
+        body: Charts of processor, memory, graphics, network and disk use for every PC.
+        seconds: 3
+      - template: shot
+        shot: resources.png
+        crop: { x: 0, y: 0, width: 560, height: 335 }
+        caption: Processor and memory.
+        seconds: 3.5
+      - template: shot
+        shot: resources.png
+        crop: { x: 0, y: 338, width: 560, height: 414 }
+        caption: Graphics, network and disk.
+        seconds: 3.5
+      - template: shot
+        shot: resources.png
+        crop: { x: 540, y: 0, width: 560, height: 190 }
+        caption: For the last hour or the last month.
+        seconds: 3
+      - template: title
+        headline: Find the machine that needs an upgrade.
+        body: Open several PCs side by side to compare.
+        seconds: 3
+      - template: end
+        seconds: 2.5
+
+posts:
+  bluesky:
+    text: |
+      Which PC needs an upgrade? In Desktop Monitoring, open a computer's Resources window and see its processor, memory, graphics, network and disk use, for the last hour or the last month.
+
+      Open a few side by side to compare.
+      https://limitlesssoft.com/en/applications/desktop-monitoring
+    media: [card-wide.png]
+  x:
+    text: |
+      Which PC needs an upgrade? In Desktop Monitoring, open a computer's Resources window and see its processor, memory, graphics, network and disk use, for the last hour or the last month.
+
+      Open a few side by side to compare.
+    media: [card-wide.png]
+  instagram:
+    text: |
+      Which PC needs an upgrade?
+      Desktop Monitoring charts each Windows PC's processor, memory, graphics, network and disk use, for the last hour or the last month. Open a few side by side to compare.
+      Link in bio.
+
+      #itsupport #sysadmin #officemanagement #smallbusiness #windows
+    media: [clip-vertical.mp4]
