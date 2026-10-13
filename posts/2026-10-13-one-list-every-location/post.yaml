@@ -1,0 +1,76 @@
+title: One list, every location
+
+sources:
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.LIVE.TITLE — "Every computer, one window"
+  - 'en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.LIVE.DESCRIPTION — "All your computers in one list, with a clear status for each: working, idle or offline. Click one and its screen opens right away."'
+  - en.json DESKTOP_MONITORING_PAGE.SHOWCASE.ITEMS.LIVE.POINTS.ITEM_2 — "Name computers after people, teams or rooms"
+  - en.json DESKTOP_MONITORING_PAGE.BENEFITS.ITEMS.ITEM_2.DESCRIPTION — "Office, home or another city — computers only need internet, no VPN or network setup."
+  - en.json DESKTOP_MONITORING_PAGE.HERO.TITLE — "Every screen in your company. Live and on replay." (the video's end card)
+  - en.json DESKTOP_MONITORING_PAGE.FAQ.ITEMS.ITEM_4.ANSWER — "Yes. Computers only need internet access to reach the server — no VPN or changes to your network."
+  - en.json DESKTOP_MONITORING_PAGE.USE_CASES.ITEMS.ITEM_1.DESCRIPTION — "Know your office and remote team are on track without standing behind anyone's chair."
+  - en.json DESKTOP_MONITORING_PAGE.USE_CASES.ITEMS.ITEM_4.DESCRIPTION — "Reception desks, warehouse terminals, meeting rooms and stores — always know what they are used for."
+  - en.json DESKTOP_MONITORING_PAGE.BENEFITS.ITEMS.ITEM_1.DESCRIPTION — "The client runs quietly in the background and sends a new picture only when the screen changes."
+  - en.json DESKTOP_MONITORING_PAGE.FAQ.ITEMS.ITEM_1.ANSWER — "The client has no window and runs at low priority, so it does not slow the computer down. Monitoring should still never be a secret — tell your team that their screens are recorded."
+  - en.json DESKTOP_MONITORING_PAGE.INSTALL.CONSENT — "Install the client only on computers you own or manage, and let the people who use them know that their screens are recorded."
+
+visuals:
+  card-wide.png:
+    template: feature
+    size: wide
+    kicker: DESKTOP MONITORING · LIVE
+    headline: Every computer, one window
+    body: All your computers in one list. Click one and its screen opens.
+    shot: live.png
+    crop: { x: 12, y: 10, width: 280, height: 480 }
+    alt: "A card. On the left, the kicker DESKTOP MONITORING · LIVE, the headline \"Every computer, one window\" and the line \"All your computers in one list. Click one and its screen opens.\" On the right, a screenshot of the Desktop Monitoring agent list with eight PCs of a fictional company: Accounting — Ana, Design — Teodora, Field laptop — Petar (offline), IT Support, Meeting room PC (paused, user inactive), Reception, Sales — Marko (selected), Warehouse 1, each with a coloured status dot. At the bottom, Desktop Monitoring by LimitlessSoft and limitlesssoft.com."
+
+  clip-vertical.mp4:
+    template: clip
+    size: vertical
+    alt: "Short clip. A title card: DESKTOP MONITORING, \"Office, home or another city. One list.\", \"Computers only need internet. No VPN.\" Then the Desktop Monitoring agent list of eight company PCs with their status, captioned \"Every computer, with its status.\" Then the list with Sales — Marko selected and the left part of its live mail screen, captioned \"Click one and its screen opens.\" Then a card: \"No window. No slowdown. Monitoring should never be a secret. Tell your team.\" It ends on the LS logo, Desktop Monitoring, \"Every screen in your company. Live and on replay.\" and limitlesssoft.com."
+    scenes:
+      - template: title
+        kicker: DESKTOP MONITORING
+        headline: Office, home or another city. One list.
+        body: Computers only need internet. No VPN.
+        seconds: 2.5
+      - template: shot
+        shot: live.png
+        crop: { x: 12, y: 10, width: 280, height: 480 }
+        caption: Every computer, with its status.
+        seconds: 3.5
+      - template: shot
+        shot: live.png
+        crop: { x: 12, y: 10, width: 1100, height: 520 }
+        caption: Click one and its screen opens.
+        seconds: 3.5
+      - template: title
+        headline: No window. No slowdown.
+        body: Monitoring should never be a secret. Tell your team.
+        seconds: 3
+      - template: end
+        seconds: 2.5
+
+
+posts:
+  bluesky:
+    text: |
+      Office, home or another city: Desktop Monitoring puts every computer in one list, each with its status. Click one and its screen opens.
+
+      The client runs quietly and doesn't slow the computer down. Tell your team their screens are recorded.
+      https://limitlesssoft.com/en/applications/desktop-monitoring
+    media: [card-wide.png]
+  x:
+    text: |
+      Office, home or another city: Desktop Monitoring puts every computer in one list, each with its status. Click one and its screen opens.
+
+      The client runs quietly in the background and does not slow the computer down. Tell your team their screens are recorded.
+    media: [card-wide.png]
+  instagram:
+    text: |
+      Office, home or another city. Desktop Monitoring puts every computer in one list. Click one and its screen opens.
+      The client runs quietly and does not slow the computer down. Tell your team their screens are recorded.
+      Link in bio.
+
+      #officemanagement #smallbusiness #itsupport #windows #remotework
+    media: [clip-vertical.mp4]
