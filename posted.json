@@ -15,5 +15,23 @@
       "url": "https://www.instagram.com/reel/Dec6MTCiLQ_/",
       "at": "2026-10-13T22:44:49.163Z"
     }
+  },
+  "2026-10-14-rewind-to-10-15": {
+    "bluesky": {
+      "status": "posted",
+      "url": "https://bsky.app/profile/did:plc:zhbso7l5kupw4ewqyo7kq4y2/post/3mxtmdqecam2n",
+      "at": "2026-10-14T13:04:48.470Z"
+    },
+    "x": {
+      "status": "posted",
+      "url": "https://x.com/i/status/2110356151585919211",
+      "at": "2026-10-14T13:04:49.965Z"
+    },
+    "instagram": {
+      "status": "retrying",
+      "attempts": 1,
+      "error": "Instagram media container: HTTP 400 {\"error\":{\"message\":\"Param alt_text must be at most 1000 characters long.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ARwkYWkwBV6PNAUrjp4dYDI\"}}",
+      "at": "2026-10-14T13:04:50.462Z"
+    }
   }
 }
