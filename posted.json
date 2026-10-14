@@ -28,10 +28,10 @@
       "at": "2026-10-14T13:04:49.965Z"
     },
     "instagram": {
-      "status": "retrying",
-      "attempts": 2,
-      "error": "Instagram media container: HTTP 400 {\"error\":{\"message\":\"Param alt_text must be at most 1000 characters long.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AqauygmUgwNQ6-7Kd50eq-Z\"}}",
-      "at": "2026-10-14T18:09:53.941Z"
+      "status": "failed",
+      "attempts": 3,
+      "error": "Instagram media container: HTTP 400 {\"error\":{\"message\":\"Param alt_text must be at most 1000 characters long.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AXXZYmuwSAPCZhepW1Ov3B9\"}}",
+      "at": "2026-10-14T21:55:55.629Z"
     }
   }
 }
